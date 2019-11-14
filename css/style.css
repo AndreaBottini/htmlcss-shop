@@ -10,6 +10,7 @@ body {
 
 .righe {
   margin: 10px;
+  text-align: center;
 }
 
 .immagini {
@@ -40,4 +41,11 @@ position: absolute;
 width: 100%;
 padding: 3px;
 bottom: 0;
+z-index: -1;
+cursor: pointer;
+color: red;
+}
+
+.immagini:hover .cuore {
+  z-index: 1;
 }
