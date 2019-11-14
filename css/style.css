@@ -13,8 +13,31 @@ body {
 }
 
 .immagini {
-  background-color: green;
-  height: 300px;
-  width: 300px;
   display: inline-block;
+  position:relative;
+  border: 3px solid orange;
+}
+
+.scontistica {
+  background-color: red;
+  position: absolute;
+  border-radius: 3px;
+  right: 0;
+  top: 0;
+}
+
+.scontisticaverde {
+  background-color: green;
+  position:absolute;
+  border-radius: 3px;
+  right: 0;
+  top: 0;
+}
+
+.immagini .cuore {
+text-align: center;
+position: absolute;
+width: 100%;
+padding: 3px;
+bottom: 0;
 }
