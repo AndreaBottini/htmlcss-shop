@@ -9,6 +9,12 @@ body {
 }
 
 .righe {
-  background-color: blue;
+  margin: 10px;
+}
+
+.immagini {
+  background-color: green;
+  height: 300px;
+  width: 300px;
   display: inline-block;
 }
